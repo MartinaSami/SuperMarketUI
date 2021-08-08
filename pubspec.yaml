@@ -1,0 +1,68 @@
+name: supermarket
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_maps_flutter:
+  clippy_flutter:
+  dashed_container:
+  material_design_icons_flutter: 4.0.5855
+  localize_and_translate: ^3.0.3
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+
+  assets:
+    - assets/i18n/ar.json
+    - assets/i18n/en.json
+    - assets/images/apple.jpg
+    - assets/images/burger.jpg
+    - assets/images/burger2.jpg
+    - assets/images/eggs.jpg
+    - assets/images/orange.jpg
+    - assets/images/strawberry.jpg
+    - assets/images/apple.jpg
+    - assets/images/vegetables.jpg
+    - assets/images/cart2.jpg
+
+
+
+
+
+
+
+
+
+
+
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo-Regular.ttf
